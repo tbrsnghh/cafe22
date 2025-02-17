@@ -1,0 +1,38 @@
+GET http://localhost:3001/
+
+### Lấy danh sách lì xì
+GET http://localhost:3001/money
+Content-Type: application/json
+
+### Thêm một lì xì mới
+POST http://localhost:3001/money
+Content-Type: application/json
+
+{  
+  "user": "Kieu trinh",  
+  "amount": "50k",  
+  "date_hour": "16:10 31/01/2025",  
+  "transfer": "Nhật ",  
+  "STK": "",  
+  "tenNH": "",  
+  "nhanngay": true,  
+  "ngaynhantuonglai": "16/10/2025",  
+  "notechotuonglai": "note gì đó"  
+}
+
+### Xóa một lì xì (thay ID bằng ID thực tế)
+DELETE http://localhost:3001/money/1706620800000
+### Chúc Tết theo tên (truyền qua body)
+POST http://localhost:3001/chuc
+Content-Type: application/json
+
+{
+  "ten": "tuấn kiệt"
+}
+### Chúc Tết theo tên (truyền qua body)
+POST http://localhost:3001/receive-lixi
+Content-Type: application/json
+
+{
+  "user": "minh nhật"
+}
