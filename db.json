@@ -59,7 +59,21 @@
         }
       ],
       "time": "2025-02-17T09:53:21.643Z",
-      "status": "pending"
+      "status": "canceled"
+    },
+    {
+      "id": 5,
+      "customer": "ẻt",
+      "phone": "ẻt",
+      "items": [
+        {
+          "id": 1,
+          "name": "Cà phê sữa",
+          "quantity": 1
+        }
+      ],
+      "time": "2025-02-18T09:35:17.512Z",
+      "status": "finished"
     }
   ]
 }
