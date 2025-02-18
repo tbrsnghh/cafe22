@@ -17243,26 +17243,74 @@ function fS({ resetHome: a, cusname: i, cusphone: f }) {
   const [c, s] = N.useState({}),
     [d, h] = N.useState(""),
     [y, g] = N.useState(!1),
-    m = [
-      {
-        id: 1,
-        name: "Cà phê sữa",
-        description: "Cà phê sữa thơm ngon",
-        image: "https://maisonmarou.com/wp-content/uploads/2023/09/caphe-sua.jpg",
-      },
-      {
-        id: 2,
-        name: "Trà đào",
-        description: "Trà đào tươi mát",
-        image: "/peach-tea.jpg",
-      },
-      {
-        id: 3,
-        name: "Bạc xỉu",
-        description: "Cà phê sữa đá nhẹ",
-        image: "/bacxiu.jpg",
-      },
-    ],
+    m = [ {
+    id: 1,
+    name: "Cà phê đen",
+    description: "Cà phê đen đậm đà",
+    image: "https://www.sugartown.vn/upload/sanpham/1201-16530156771.png",
+  },
+  {
+    id: 2,
+    name: "Cà phê sữa",
+    description: "Cà phê sữa thơm ngon",
+    image: "https://maisonmarou.com/wp-content/uploads/2023/09/caphe-sua.jpg",
+  },
+  {
+    id: 3,
+    name: "Bạc xỉu",
+    description: "Cà phê sữa đá nhẹ",
+    image: "https://image.winci.com.vn/wp-content/uploads/2023/12/Cach-pha-ca-phe-bac-xiu-cho-nguoi-moi-bat-dau.jpg",
+  },
+  {
+    id: 4,
+    name: "Caramel Latte Coffee",
+    description: "Cà phê latte caramel béo ngậy",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrXH0dTGk7aQoPXrtbN8XhXVwn2Uxz0a2J-A&s",
+  },
+  {
+    id: 5,
+    name: "Matcha Latte",
+    description: "Matcha latte thơm ngon",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvygTlgRCcKFSKBD4cUr7uRGbsZd345z-7g&s",
+  },
+  {
+    id: 6,
+    name: "Trà sữa Thái",
+    description: "Trà sữa Thái ngọt béo",
+    image: "https://barona.vn/storage/meo-vat/182/cach-lam-tra-sua-thai-xanh.jpg",
+  },
+  {
+    id: 7,
+    name: "Trà gừng nóng",
+    description: "Trà gừng ấm áp",
+    image: "/tra-gung.jpg",
+  },
+  {
+    id: 8,
+    name: "Trà xanh Nhật",
+    description: "Trà xanh Nhật thanh mát",
+    image: "/tra-xanh-nhat.jpg",
+  },
+  {
+    id: 9,
+    name: "Cacao Latte",
+    description: "Cacao latte thơm béo",
+    image: "/cacao-latte.jpg",
+  },
+  {
+    id: 10,
+    name: "Cacao sữa",
+    description: "Cacao sữa đậm đà",
+    image: "/cacao-sua.jpg",
+  },
+  {
+    id: 11,
+    name: "Cacao nóng",
+    description: "Cacao nóng thơm ngon",
+    image: "/cacao-nong.jpg",
+  }
+]
+,
     b = (C) => {
       s((R) => ({ ...R, [C]: (R[C] || 0) + 1 }));
     },
