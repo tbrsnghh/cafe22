@@ -4,6 +4,7 @@ const path = require("path");
 const cors = require("cors");
 
 const app = express();
+const PORT = 3001;
 const DATA_FILE = "db.json";
 
 // Middleware
@@ -105,7 +106,6 @@ app.delete("/orders/:id", (req, res) => {
 });
 
 // Chạy server
-app.listen(() => {
-  console.log(`Server running on http://localhost`);
+app.listen(3000, () => {
+  console.log(`Server running on http://localhost:3000`);
 });
-
